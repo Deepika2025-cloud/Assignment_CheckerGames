@@ -148,12 +148,12 @@ import java.util.List;
 	
 		            for (WebElement square : emptySquares) {
 		                try {
-		                    // Check if this square is clickable (meaning it's a valid move)
+		                    
 		                    if (square.isDisplayed() && square.isEnabled()) {
 		                        return square;
 		                    }
 		                } catch (Exception e) {
-		                    // Continue to next square
+		                  
 		                }
 		            }
 		            
@@ -166,7 +166,7 @@ import java.util.List;
 		                        return square;
 		                    }
 		                } catch (Exception e) {
-		                    // Continue to next square
+		                    
 		                }
 		            }
 		            
@@ -215,4 +215,5 @@ import java.util.List;
 		        }
 		    }
 		}
+
 
